@@ -2,7 +2,8 @@
 package aspell
 
 /*
-#cgo LDFLAGS: -laspell
+#cgo CFLAGS: -I/cention/include
+#cgo LDFLAGS: /cention/lib/libaspell.so
 #include <stdlib.h>
 #include "aspell.h"
 */
